@@ -16,3 +16,4 @@ db:
     retries: 15
 
   backend:
+    build: ./backend
