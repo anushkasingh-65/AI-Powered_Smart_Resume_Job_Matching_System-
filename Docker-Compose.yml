@@ -17,4 +17,5 @@ db:
 
   backend:
     build: ./backend
-    environment:
+    environment: 
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/resume_matcher
