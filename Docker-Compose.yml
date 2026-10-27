@@ -30,4 +30,5 @@ db:
 
   frontend:
     build: ./frontend
+    environment:
       
