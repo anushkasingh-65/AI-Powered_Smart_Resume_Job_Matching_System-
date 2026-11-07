@@ -16,3 +16,4 @@ async function api(path, optionss = {}) {
 
 export default function App() {
   const [jobs, setJobs] = useState([])
+  const [resumeText, setResumeText] = useState('')
